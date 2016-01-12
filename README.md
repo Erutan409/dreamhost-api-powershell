@@ -1,6 +1,6 @@
 # Dreamhost API - PowerShell
 
-The purpose of this code is to allow interfacing with a Dreamhost account via their API.  Once such purpose would be to automatically update DNS records for ***DNS hosted only*** records for remote hosts that have dynamic IP's.
+The purpose of this code is to allow interfacing with a Dreamhost account via their API.  Once such purpose would be to automatically update DNS entries for ***DNS hosted only*** records for remote hosts that have dynamic IP's.
 
 ## Supported API Commands
 ---
@@ -30,3 +30,11 @@ Are you sure want to add the following record: sub.domain.suffix | A | %CURL_IP%
 Record successfully added
 ```
 - Removing
+```
+> DnsRecord-Remove -apiKey 6SHU5P2HLDAYECUM -record "sub.domain.suffix" -type "A" -value "%IP_ADDRESS%"
+
+
+Are you sure want to remove the following record: sub.domain.suffix | A | %IP_ADDRESS%: y
+
+Record successfully removed
+```
