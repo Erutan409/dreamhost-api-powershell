@@ -4,6 +4,30 @@ The purpose of this code is to allow interfacing with a Dreamhost account via th
 
 ## Supported API Commands
 ---
+### API Metacommands
+- Listing
+```
+> API-GetCommands -apiKey 6SHU5P2HLDAYECUM
+
+
+Command                                       Order                                         Arguments                                    OptionalArguments
+-------                                       -----                                         ---------                                    -----------------
+announcement_list-list_lists                  see_docs                                      see_docs                                     see_docs
+announcement_list-list_subscribers            see_docs                                      see_docs                                     see_docs
+api-list_accessible_cmds                      {cmd, args, optargs, order}                   {}                                           {}
+dns-list_records                              see_docs                                      see_docs                                     see_docs
+etc...
+```
+- Keys
+```
+> API-GetKeys -apiKey 6SHU5P2HLDAYECUM
+
+
+Key                                           Functions                                     Comment                                      Created
+---                                           ---------                                     -------                                      -------
+6SHU5P2HLDAYECUM                              *                                             Admin API                                    2016-01-11 16:43:03
+```
+
 ### DNS Records
 - Listing
 ```
