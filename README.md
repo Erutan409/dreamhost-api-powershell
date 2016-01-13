@@ -1,6 +1,6 @@
 # Dreamhost API - PowerShell
 
-The purpose of this code is to allow interfacing with a Dreamhost account via their API.  Once such purpose would be to automatically update DNS entries for ***DNS hosted only*** records for remote hosts that have dynamic IP's.
+The purpose of this code is to allow interfacing with a Dreamhost account via their [API](http://wiki.dreamhost.com/Application_programming_interface).  Once such purpose would be to automatically update DNS entries for ***DNS hosted only*** records for remote hosts that have dynamic IP's.
 
 ## Supported API Commands
 ---
